@@ -3,6 +3,9 @@
 *.log
 tmp
 dump
+.gradle
+.idea
+.g8
 
 # Eclipse
 .settings
