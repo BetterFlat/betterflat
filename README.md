@@ -1,1 +1,1 @@
-# betterflat
+# BetterFlat Server Implementation
