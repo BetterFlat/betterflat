@@ -3,8 +3,3 @@ jdk:
     - oraclejdk8
 env:
   - PLAY_VERSION=2.6.15
-before_install:
-  - wget http://downloads.typesafe.com/play/${PLAY_VERSION}/play-${PLAY_VERSION}.zip
-  - unzip -q play-${PLAY_VERSION}.zip
-install: play-${PLAY_VERSION}/play compile
-script: play-${PLAY_VERSION}/play test
