@@ -5,6 +5,7 @@ tmp
 dump
 .gradle
 .idea
+*.iml
 .g8
 
 # Eclipse
@@ -26,3 +27,6 @@ target
 # Play
 logs
 RUNNING_PID
+
+# Firebase
+conf/betterflat-firebase-adminsdk.json
